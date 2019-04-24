@@ -82,6 +82,7 @@ public class Registreation extends AppCompatActivity implements View.OnClickList
 
                         progressDialog.dismiss();
                         Toast.makeText(getApplicationContext(),response,Toast.LENGTH_LONG).show();
+
                     }
                 },
                 new Response.ErrorListener() {
@@ -92,6 +93,7 @@ public class Registreation extends AppCompatActivity implements View.OnClickList
 
                         progressDialog.dismiss();
                         Toast.makeText(getApplicationContext(),error.getMessage(),Toast.LENGTH_LONG).show();
+                        startActivity(new Intent(Registreation.this,Login.class));
 
                     }
                 }) {
