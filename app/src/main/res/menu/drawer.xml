@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/db"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="Mentor"/>
+    <item
+        android:icon="@drawable/ic_event_black_24dp"
+        android:id="@+id/even"
+        android:title="Classes"/>
+    <item
+        android:icon="@drawable/ic_search_black_24dp"
+        android:id="@+id/search"
+        android:title="My List"/>
+    <item
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:id="@+id/setting"
+        android:title="Log-in"/>
+    <item
+        android:icon="@drawable/ic_account_box_black_24dp"
+        android:id="@+id/logout"
+        android:title="Logout"/>
+</menu>
